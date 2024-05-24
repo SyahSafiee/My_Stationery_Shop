@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Home | My Stationery Shop</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>  
+    </head>
+    <body>
+        <header>
+            <h1>My Stationery Shop</h1>
+        </header>
+        <!-- to devide between sidebar and content -->
+        <div class="container"> 
+            <aside class="sidebar">
+                <table border="1">
+                    <tr><td><a href="home.html">Home</a></td></tr>
+                    <tr><td><a href="products.html">Products</a></td></tr>
+                    <tr><td><a href="about.html">About Us</a></td></tr>
+                    <tr><td><a href="contact.html">Contact Us</a></td></tr>
+                </table>
+            </aside>
+
+            <main class="content">
+                <h2>PROMOTION!!</h2>
+                <div class="promo-container">
+                    <button class="prev" onclick="scrollPromo(-1)">&#10094;</button>
+                    <div class="promo">
+                        <img src="image/back to school.jpg" alt="back to school promo">
+                        <img src="image/www.mystationeryshop.com.png" alt="year end sale">
+                        <img src="image/new user promo.png" alt="new user promo">
+                        <img src="image/coming soon.png" alt="coming soon">
+                        <img src="image/big sale.png" alt="big sale">
+                    </div>
+                    <button class="next" onclick="scrollPromo(1)">&#10095;</button>
+                </div>
+                <br>
+                <h2>HOT SELLER!!</h2>
+                <div class="hot-container">
+                    <div class="hot">
+                        <div class="product">
+                            <video controls autoplay muted>
+                                <source src="video/Highlighter Promo.mp4" alt="highlighter promo">
+                            </video>
+                        </div>
+                        <div class="product">    
+                            <img src="image/staedtler highlighter edited.png" alt="staedtler highlighter">
+                            <p>Staedtler Highlighter Set</p>
+                            <p>RM 9.00</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </main>
+        </div>  
+    </body>
+</html>
